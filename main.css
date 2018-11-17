@@ -1,0 +1,69 @@
+{
+	margen : 0 ;
+	relleno : 0 ;
+	esquema : 0 ;
+}
+ @import  url ( ' https://fonts.googleapis.com/css?family=Open+Sans ' );
+ html {
+	Familia tipográfica : ' Open Sans ' , sans-serif ;
+	tamaño de letra : 16 px ;
+}
+cuerpo {
+	imagen de fondo : url ( ' ' );
+	tamaño de fondo : cubierta ;
+}
+ de entrada [ tipo = " texto " ], de entrada [ tipo = " contraseña " ], de entrada [ tipo = " email " ], de entrada [ tipo = " URL " ], de entrada [ tipo = " número " ], área de texto {
+    ancho : 97 % ;
+    altura : 25 px ;
+    margen : 0  0  15 px ;
+    Relleno : 10 px  1 % ;
+    tamaño de letra : 18 px ;
+	
+	-webkit-border-radius : 3 px ;
+	-moz-border-radius : 3 px ;
+	radio del borde : 3 px ;
+}
+ ingrese [ type = " submit " ], ingrese [ type = " button " ], ingrese [ type = " reset " ] {
+    pantalla : bloque en línea ;
+    fondo : # 2394D5 ;
+    Relleno : 5 px  15 px ;
+    color : #fff ;
+    borde : 0  ninguno ;
+    tamaño de letra : 18 px ;
+    cursor : puntero ;
+    -webkit-border-radius : 5 px ;
+    -moz-border-radius : 5 px ;
+    radio del borde : 5 px ;
+}
+input [ type = " submit " ] : hover , input [ type = " button " ] : hover , input [ type = " reset " ] : hover {
+	opacidad : .8 ;
+}
+ .main  de entrada [ tipo = " texto " ], .main  de entrada [ tipo = " contraseña " ] {
+	text-align : center ;
+	borde : 0 ;
+}
+.main  de entrada [ tipo = " submit " ] {
+    ancho : 99 % ;
+    margen : 0  auto ;
+    relleno : 13 px  0 ;
+}
+ .main {
+    ancho : 30 % ;
+    color de fondo : rgba ( 255 , 255 , 255 , .4 );
+    text-align : center ;
+	radio del borde : 5 px ;
+	margen : 17 %  auto  0  auto ;
+	Relleno : 3 % ;
+    posición : relativa ;
+}
+ .error {
+    color de fondo : # E74F4F ;
+    posición : absoluta ;
+    arriba : 0 ;
+    relleno : 10 px  0 ;
+    radio del borde :   0  0  5 px  5 px ;
+    color : #fff ;
+    ancho : 100 % ;
+    text-align : center ;
+    pantalla : ninguna ;
+} 
